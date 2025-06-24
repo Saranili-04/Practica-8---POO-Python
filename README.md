@@ -21,24 +21,40 @@ Este proyecto pone en práctica conceptos clave de Programación Orientada a Obj
 
 **Estructura de Archivos**
 /SistemaCursosJava
+
 │
 ├── Main.java
+
 ├── MainConScannerDatos.java
+
 ├── Curso.java
+
 ├── Persona.java
+
 ├── Estudiante.java
+
 ├── ProfesorPorHoras.java
+
 ├── ProfesorTiempoCompleto.java
+
 │
+
 ├── interfaces/
+
 │   ├── Pagable.java
+
 │   └── Calificable.java
+
 │
+
 └── excepciones/
+
     ├── PagoInvalidoException.java
+    
     └── PromedioInvalidoException.java
    
 **Elementos Clave** 
+
 	•Interfaces: Pagable, Calificable
  
 	•Excepciones: PagoInvalidoException, PromedioInvalidoException
