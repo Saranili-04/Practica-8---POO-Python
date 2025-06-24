@@ -64,7 +64,9 @@ Este proyecto pone en práctica conceptos clave de Programación Orientada a Obj
 	•Listas: ArrayList
 
 **Instrucciones de Compilación**
+
 javac */*.java *.java
+
 java MainConScannerDatos
 
 ## Versión en Python
