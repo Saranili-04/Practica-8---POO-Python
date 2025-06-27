@@ -15,6 +15,15 @@ El objetivo de este sistema es crear una plataforma simple que permita:
 El objetivo principal del proyecto es desarrollar un sistema académico modular y escalable que a través de una arquitectura orientada a objetos. Este sistema se ha implementado en dos lenguajes de programación: Java y Python, con el propósito de mostrar cómo se puede mantener la lógica y diseño en múltiples plataformas de desarrollo.
 
 ## Características Comunes del Sistema
+| Elemento                | Descripción                                                                   |
+|-------------------------|--------------------------------------------------------------------------------|
+| Entidad Persona         | Clase base abstracta para Estudiante y Profesor                                |
+| Profesor por horas / tiempo | Calcula pago de manera diferente según su tipo                           |
+| Estudiante              | Tiene nombre, ID, calificaciones y puede calcular su promedio                 |
+| Curso                   | Se asocia a un profesor y a múltiples estudiantes                              |
+| Interfaces (Java)       | `Pagable` para profesores y `Calificable` para estudiantes                     |
+| Excepciones personalizadas | Para errores de pago o de promedio no calculable                         |
+| Consola interactiva     | Menú paso a paso para registrar información y mostrar resultados               |
 
 ## Versión en Java
 Este proyecto pone en práctica conceptos clave de Programación Orientada a Objetos en Java: abstracción, herencia, interfaces, polimorfismo, excepciones personalizadas y colecciones (List, ArrayList).
