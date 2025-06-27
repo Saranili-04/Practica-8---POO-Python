@@ -108,4 +108,4 @@ java MainConScannerDatos
 | POO                    | Obligatoria y explícita                   | Flexible y más natural                       |
 
 ## Capturas
-<br><img src="./imagens/cap.png" alt="ima3" width="300" /><br>
+<br><img src="./imagens/cap.PNG" alt="ima3" width="600" /><br>
