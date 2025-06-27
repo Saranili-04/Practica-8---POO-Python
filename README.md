@@ -70,3 +70,31 @@ javac */*.java *.java
 java MainConScannerDatos
 
 ## Versión en Python
+## Elementos Clave
+
+	•	Clases Base: Persona (abstracta con mostrar_info())
+ 
+	•	Interfaces Simuladas: Se implementan como métodos comunes (calcular_pago, calcular_promedio)
+ 
+	•	Excepciones Personalizadas: 
+ class PagoInvalidoException(Exception): pass
+ 
+ class PromedioInvalidoException(Exception): pass	
+ 
+       •	Listas Dinámicas: Uso de list
+ ## Instrucciones de Ejecución
+ 
+ 	1.	Guarda los archivos en la misma carpeta.
+  
+	2.	Ejecuta: python main.py
+ ## Comparación Java vs Python
+ | Característica         | Java                                      | Python                                       |
+|------------------------|-------------------------------------------|----------------------------------------------|
+| Abstracción            | Clases abstractas + interfaces            | Métodos en clases base y polimorfismo implícito |
+| Excepciones            | Personalizadas (`extends Exception`)      | Personalizadas (`class MiError(Exception)`)  |
+| Listas                 | `ArrayList` con tipo                      | `list` dinámico                              |
+| Entrada por consola    | `Scanner`                                 | `input()`                                    |
+| Compilación            | Requiere compilación previa               | Interpretado directamente                    |
+| Verbosidad             | Alta (tipado estricto)                    | Baja (más conciso)                           |
+| POO                    | Obligatoria y explícita                   | Flexible y más natural                       |
+
