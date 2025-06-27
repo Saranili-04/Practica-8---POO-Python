@@ -107,3 +107,4 @@ java MainConScannerDatos
 | Verbosidad             | Alta (tipado estricto)                    | Baja (más conciso)                           |
 | POO                    | Obligatoria y explícita                   | Flexible y más natural                       |
 
+## Capturas
